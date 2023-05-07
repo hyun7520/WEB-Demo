@@ -14,3 +14,4 @@ document.querySelector('p').textContent;
 document.querySelector('p').innerHTML;
 // return tags
 // document.querySelector('h1').innerText = '<h2>Hello</h2>' works here
+// += works
