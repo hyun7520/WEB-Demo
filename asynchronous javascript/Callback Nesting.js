@@ -17,29 +17,54 @@
 // for simultaneous change you have to calculate the before time
 // by nesting the function can set all times 1000
 
-const delayedColorChange = (newColor, delay, doNext) => {
-    setTimeout(() => {
-        document.body.style.backgroundColor = newColor;
-        doNext && doNext();
-    }, delay)
-}
+// const delayedColorChange = (newColor, delay, doNext) => {
+//     setTimeout(() => {
+//         document.body.style.backgroundColor = newColor;
+//         doNext && doNext();
+//     }, delay)
+// }
 
 // delayedColorChange('red', 1000);
 // delayedColorChange('orange', 2000);
 // need to add seconds to next call
 // or nest them
 
-delayedColorChange('red', 1000, () => {
-    delayedColorChange('orange', 1000, () => {
-        delayedColorChange('yellow', 1000, () => {
-            delayedColorChange('green', 1000, () => {
-                delayedColorChange('blue', 1000, () => {
-                    delayedColorChange('purple', 1000)
-                })
-            })
-        })
+// delayedColorChange('red', 1000, () => {
+//     delayedColorChange('orange', 1000, () => {
+//         delayedColorChange('yellow', 1000, () => {
+//             delayedColorChange('green', 1000, () => {
+//                 delayedColorChange('blue', 1000, () => {
+//                     delayedColorChange('purple', 1000)
+//                 })
+//             })
+//         })
+//     })
+// });
+
+// too nested : change with promise
+const delayedColorChangeNested = (color, delay) => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            document.body.style.backgroundColor = color;
+            resolve();
+        }, delay)
     })
-});
+}
+
+// delayedColorChangeNested('red', 1000)
+//     .then(() => {
+//         delayedColorChangeNested('orange', 1000);
+//     })
+//     .then(() => {
+//         delayedColorChangeNested('red', 1000);
+//     })
+
+//  or
+delayedColorChangeNested('red', 1000)
+    .then(() => delayedColorChangeNested('orange', 1000))
+    .then(() => delayedColorChangeNested('red', 1000))
+    .then(() => delayedColorChangeNested('yellow', 1000))
+    .then(() => delayedColorChangeNested('green', 1000))
 
 searchMoviesAPI('amadeus', () => {
     saveToMyDB(movies, () => {
