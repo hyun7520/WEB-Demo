@@ -62,4 +62,3 @@ try {
     console.log(e);
 }
 
-C: \Users\sangh\OneDrive\바탕화면\WEB - Demo\NODE
