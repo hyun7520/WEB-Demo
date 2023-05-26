@@ -653,3 +653,644 @@ NODE/Module, NPM/Module/node_modules/.bin/sshpk-sign.cmd
 NODE/Module, NPM/Module/node_modules/.bin/sshpk-sign
 NODE/Module, NPM/Module/node_modules/.bin/sshpk-conv.ps1
 NODE/Module, NPM/Module/node_modules/.bin/sshpk-conv.cmd
+NODE/Module, NPM/Module/Artster/node_modules/figlet/utils/flf-to-strings.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/test/figlet_test.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/test/expected/wrapWordThreeLines
+NODE/Module, NPM/Module/Artster/node_modules/figlet/test/expected/wrapWord
+NODE/Module, NPM/Module/Artster/node_modules/figlet/test/expected/wrapWhitespaceLogString
+NODE/Module, NPM/Module/Artster/node_modules/figlet/test/expected/wrapWhitespaceBreakWord
+NODE/Module, NPM/Module/Artster/node_modules/figlet/test/expected/wrapSimpleThreeLines
+NODE/Module, NPM/Module/Artster/node_modules/figlet/test/expected/wrapSimple
+NODE/Module, NPM/Module/Artster/node_modules/figlet/test/expected/verticalSmushRule2
+NODE/Module, NPM/Module/Artster/node_modules/figlet/test/expected/standard
+NODE/Module, NPM/Module/Artster/node_modules/figlet/test/expected/graffiti
+NODE/Module, NPM/Module/Artster/node_modules/figlet/test/expected/dancingFontReverse
+NODE/Module, NPM/Module/Artster/node_modules/figlet/test/expected/dancingFont
+NODE/Module, NPM/Module/Artster/node_modules/figlet/test/expected/.gitattributes
+NODE/Module, NPM/Module/Artster/node_modules/figlet/README.md
+NODE/Module, NPM/Module/Artster/node_modules/figlet/package.json
+NODE/Module, NPM/Module/Artster/node_modules/figlet/LICENSE.txt
+NODE/Module, NPM/Module/Artster/node_modules/figlet/lib/node-figlet.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/lib/figlet.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Wow.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Whimsy.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Wet Letter.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Weird.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Wavy.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Varsity.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/USA Flag.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Univers.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Two Point.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Twisted.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Tubular.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Tsalagi.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Trek.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Train.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Tombstone.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Tinker-Toy.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Tiles.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Ticks.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Ticks Slant.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Three Point.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Thorned.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/THIS.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Thin.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Thick.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/The Edge.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Test1.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Term.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Tengwar.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Tanja.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Sweet.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Swan.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Swamp Land.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Sub-Zero.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Stronger Than All.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Straight.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Stop.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Stick Letters.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Stforek.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Stellar.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Star Wars.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Star Strips.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Standard.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Stampatello.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Stampate.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Stacey.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Spliff.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Speed.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Soft.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Small.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Small Tengwar.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Small Slant.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Small Shadow.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Small Script.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Small Poison.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Small Keyboard.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Small Isometric1.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Small Caps.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Slide.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Slant.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Slant Relief.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/SL Script.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Short.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Shimrod.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Shadow.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Serifcap.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Script.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Santa Clara.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/S Blood.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Runyc.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Runic.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Rozzo.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Rowan Cap.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Rounded.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Rotated.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Rot13.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Roman.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Reverse.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Relief2.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Relief.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Red Phoenix.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Rectangles.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Rammstein.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Pyramid.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Puzzle.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Puffy.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Poison.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Pepper.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Pebbles.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Peaks.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Peaks Slant.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Pawp.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Patorjk-HeX.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Patorjk's Cheese.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Pagga.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/OS2.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Old Banner.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Ogre.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Octal.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/O8.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/NV Script.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/NT Greek.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/NScript.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Nipples.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Nancyj.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Nancyj-Underlined.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Nancyj-Improved.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Nancyj-Fancy.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Muzzle.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Mshebrew210.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Moscow.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Morse2.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Morse.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Modular.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Mnemonic.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Mirror.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Mini.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Mike.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Merlin2.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Merlin1.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Maxfour.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Marquee.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Madrid.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Lockergnome.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Linux.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Line Blocks.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Lil Devil.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Letters.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Lean.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/LCD.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Larry 3D.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Larry 3D 2.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Konto.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Konto Slant.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Knob.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Keyboard.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Kban.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Katakana.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/JS Stick Letters.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/JS Cursive.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/JS Capital Curves.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/JS Bracket Letters.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/JS Block Letters.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Jerusalem.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Jazmine.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Jacky.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Ivrit.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Italic.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Isometric4.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Isometric3.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Isometric2.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Isometric1.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Invita.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Impossible.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/ICL-1900.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Horizontal Right.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Horizontal Left.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Hollywood.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Hieroglyphs.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Hex.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Henry 3D.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Heart Right.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Heart Left.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Greek.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Graffiti.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Gradient.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Graceful.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Gothic.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Goofy.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Glenyn.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Ghoulish.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Ghost.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Georgia11.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Georgi16.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Fuzzy.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Fun Faces.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Fun Face.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Fraktur.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Four Tops.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Flower Power.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Flipped.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Fire Font-s.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Fire Font-k.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Filter.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Fender.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Epic.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Elite.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Electronic.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Efti Water.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Efti Wall.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Efti Robot.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Efti Piti.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Efti Italic.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Efti Font.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Efti Chess.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/DWhistled.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Dr Pepper.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Double.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Double Shorts.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Dot Matrix.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/DOS Rebel.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Doom.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Doh.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Digital.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Diet Cola.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Diamond.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Delta Corps Priest 1.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Def Leppard.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Decimal.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Dancing Font.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/DANC4.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Cygnet.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Cybersmall.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Cybermedium.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Cyberlarge.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Cursive.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Cricket.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Crazy.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Crawford2.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Crawford.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Cosmike.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Contrast.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Contessa.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Computer.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Colossal.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Cola.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Coinstak.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Chunky.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Chiseled.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Catwalk.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Cards.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Calvin S.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Caligraphy2.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Caligraphy.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Bulbhead.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Bubble.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Broadway.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Broadway KB.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Bright.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Braced.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Bolger.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Bloody.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Blocks.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Block.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Binary.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Bigfig.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Big.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Big Money-sw.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Big Money-se.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Big Money-nw.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Big Money-ne.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Big Chief.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Benjamin.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Bell.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Bear.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Basic.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Barbwire.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Banner4.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Banner3.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Banner3-D.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Banner.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/B1FF.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Avatar.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/ASCII New Roman.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Arrows.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/ANSI Shadow.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/ANSI Regular.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/AMC Untitled.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/AMC Tubes.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/AMC Thin.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/AMC Slider.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/AMC Slash.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/AMC Razor2.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/AMC Razor.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/AMC Neko.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/AMC AAA01.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/AMC 3 Liv1.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/AMC 3 Line.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Alphabet.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Alpha.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Alligator2.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Alligator.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/Acrobatic.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/5 Line Oblique.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/4Max.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/3x5.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/3D-ASCII.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/3D Diagonal.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/3-D.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/importable-fonts/1Row.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/Gruntfile.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Wow.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Whimsy.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Wet Letter.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Weird.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Wavy.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Varsity.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/USA Flag.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Univers.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Two Point.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Twisted.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Tubular.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Tsalagi.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Trek.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Train.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Tombstone.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Tinker-Toy.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Tiles.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Ticks.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Ticks Slant.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Three Point.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Thorned.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/THIS.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Thin.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Thick.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/The Edge.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Test1.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Term.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Tengwar.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Tanja.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Sweet.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Swan.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Swamp Land.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Sub-Zero.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Stronger Than All.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Straight.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Stop.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Stick Letters.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Stforek.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Stellar.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Star Wars.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Star Strips.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Standard.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Stampatello.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Stampate.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Stacey.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Spliff.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Speed.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Soft.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Small.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Small Tengwar.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Small Slant.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Small Shadow.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Small Script.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Small Poison.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Small Keyboard.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Small Isometric1.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Small Caps.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Slide.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Slant.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Slant Relief.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/SL Script.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Short.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Shimrod.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Shadow.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Serifcap.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Script.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Santa Clara.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/S Blood.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Runyc.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Runic.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Rozzo.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Rowan Cap.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Rounded.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Rotated.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Rot13.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Roman.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Reverse.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Relief2.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Relief.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Red Phoenix.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Rectangles.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Rammstein.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Pyramid.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Puzzle.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Puffy.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Poison.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Pepper.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Pebbles.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Peaks.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Peaks Slant.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Pawp.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Patorjk-HeX.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Patorjk's Cheese.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Pagga.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/OS2.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Old Banner.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Ogre.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Octal.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/O8.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/NV Script.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/NT Greek.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/NScript.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Nipples.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Nancyj.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Nancyj-Underlined.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Nancyj-Improved.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Nancyj-Fancy.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Muzzle.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Mshebrew210.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Moscow.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Morse2.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Morse.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Modular.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Mnemonic.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Mirror.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Mini.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Mike.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Merlin2.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Merlin1.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Maxfour.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Marquee.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Madrid.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Lockergnome.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Linux.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Line Blocks.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Lil Devil.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Letters.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Lean.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/LCD.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Larry 3D.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Larry 3D 2.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Konto.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Konto Slant.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Knob.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Keyboard.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Kban.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Katakana.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/JS Stick Letters.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/JS Cursive.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/JS Capital Curves.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/JS Bracket Letters.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/JS Block Letters.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Jerusalem.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Jazmine.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Jacky.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Ivrit.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Italic.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Isometric4.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Isometric3.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Isometric2.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Isometric1.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Invita.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Impossible.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/ICL-1900.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Horizontal Right.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Horizontal Left.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Hollywood.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Hieroglyphs.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Hex.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Henry 3D.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Heart Right.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Heart Left.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Greek.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Graffiti.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Gradient.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Graceful.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Gothic.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Goofy.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Glenyn.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Ghoulish.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Ghost.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Georgia11.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Georgi16.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Fuzzy.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Fun Faces.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Fun Face.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Fraktur.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Four Tops.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Flower Power.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Flipped.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Fire Font-s.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Fire Font-k.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Filter.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Fender.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Epic.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Elite.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Electronic.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Efti Water.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Efti Wall.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Efti Robot.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Efti Piti.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Efti Italic.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Efti Font.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Efti Chess.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/DWhistled.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Dr Pepper.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Double.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Double Shorts.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Dot Matrix.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/DOS Rebel.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Doom.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Doh.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Digital.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Diet Cola.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Diamond.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Delta Corps Priest 1.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Def Leppard.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Decimal.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Dancing Font.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/DANC4.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Cygnet.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Cybersmall.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Cybermedium.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Cyberlarge.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Cursive.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Cricket.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Crazy.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Crawford2.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Crawford.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Cosmike.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Contrast.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Contessa.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Computer.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Colossal.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Cola.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Coinstak.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Chunky.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Chiseled.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Catwalk.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Cards.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Calvin S.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Caligraphy2.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Caligraphy.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Bulbhead.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Bubble.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Broadway.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Broadway KB.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Bright.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Braced.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Bolger.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Bloody.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Blocks.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Block.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Binary.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Bigfig.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Big.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Big Money-sw.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Big Money-se.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Big Money-nw.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Big Money-ne.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Big Chief.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Benjamin.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Bell.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Bear.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Basic.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Barbwire.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Banner4.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Banner3.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Banner3-D.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Banner.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/B1FF.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Avatar.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/ASCII New Roman.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Arrows.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/ANSI Shadow.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/ANSI Regular.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/AMC Untitled.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/AMC Tubes.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/AMC Thin.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/AMC Slider.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/AMC Slash.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/AMC Razor2.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/AMC Razor.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/AMC Neko.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/AMC AAA01.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/AMC 3 Liv1.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/AMC 3 Line.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Alphabet.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Alpha.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Alligator2.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Alligator.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/Acrobatic.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/5 Line Oblique.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/4Max.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/3x5.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/3D-ASCII.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/3D Diagonal.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/3-D.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/fonts/1Row.flf
+NODE/Module, NPM/Module/Artster/node_modules/figlet/examples/node/appSync.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/examples/node/app.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/examples/front-end/index.htm
+NODE/Module, NPM/Module/Artster/node_modules/figlet/doc/figfont.txt
+NODE/Module, NPM/Module/Artster/node_modules/figlet/bin/index.js
+NODE/Module, NPM/Module/Artster/node_modules/figlet/.travis.yml
+NODE/Module, NPM/Module/Artster/node_modules/figlet/.prettierrc.json
+NODE/Module, NPM/Module/Artster/node_modules/figlet/.prettierignore
+NODE/Module, NPM/Module/Artster/node_modules/figlet/.jshintrc
+NODE/Module, NPM/Module/Artster/node_modules/figlet/.idea/vcs.xml
+NODE/Module, NPM/Module/Artster/node_modules/figlet/.idea/prettier.xml
+NODE/Module, NPM/Module/Artster/node_modules/figlet/.idea/modules.xml
+NODE/Module, NPM/Module/Artster/node_modules/figlet/.idea/misc.xml
+NODE/Module, NPM/Module/Artster/node_modules/figlet/.idea/jsLinters/jshint.xml
+NODE/Module, NPM/Module/Artster/node_modules/figlet/.idea/inspectionProfiles/Project_Default.xml
+NODE/Module, NPM/Module/Artster/node_modules/figlet/.idea/figlet.js.iml
+NODE/Module, NPM/Module/Artster/node_modules/colors/themes/generic-logging.js
+NODE/Module, NPM/Module/Artster/node_modules/colors/safe.js
+NODE/Module, NPM/Module/Artster/node_modules/colors/safe.d.ts
+NODE/Module, NPM/Module/Artster/node_modules/colors/README.md
+NODE/Module, NPM/Module/Artster/node_modules/colors/package.json
+NODE/Module, NPM/Module/Artster/node_modules/colors/LICENSE
+NODE/Module, NPM/Module/Artster/node_modules/colors/lib/system/supports-colors.js
+NODE/Module, NPM/Module/Artster/node_modules/colors/lib/system/has-flag.js
+NODE/Module, NPM/Module/Artster/node_modules/colors/lib/styles.js
+NODE/Module, NPM/Module/Artster/node_modules/colors/lib/maps/zebra.js
+NODE/Module, NPM/Module/Artster/node_modules/colors/lib/maps/random.js
+NODE/Module, NPM/Module/Artster/node_modules/colors/lib/maps/rainbow.js
+NODE/Module, NPM/Module/Artster/node_modules/colors/lib/maps/america.js
+NODE/Module, NPM/Module/Artster/node_modules/colors/lib/index.js
+NODE/Module, NPM/Module/Artster/node_modules/colors/lib/extendStringPrototype.js
+NODE/Module, NPM/Module/Artster/node_modules/colors/lib/custom/zalgo.js
+NODE/Module, NPM/Module/Artster/node_modules/colors/lib/custom/trap.js
+NODE/Module, NPM/Module/Artster/node_modules/colors/lib/colors.js
+NODE/Module, NPM/Module/Artster/node_modules/colors/index.d.ts
+NODE/Module, NPM/Module/Artster/node_modules/colors/examples/safe-string.js
+NODE/Module, NPM/Module/Artster/node_modules/colors/examples/normal-usage.js
+NODE/Module, NPM/Module/Artster/node_modules/.package-lock.json
+NODE/Module, NPM/Module/Artster/node_modules/.bin/figlet.ps1
+NODE/Module, NPM/Module/Artster/node_modules/.bin/figlet.cmd
+NODE/Module, NPM/Module/Artster/node_modules/.bin/figlet
+NODE/Module, NPM/Module/Artster/package-lock.json
+NODE/Module, NPM/Module/Artster/package.json
