@@ -20,3 +20,8 @@ console.log(rainbow)
 // npm i -g module
 //  -g: install globally
 // npm link module
+
+
+// package.json file is useful for other people to try out the code
+// downloading code from github, move to the folder and type npm install
+// it will automatically search package.json and install the dependencies 
