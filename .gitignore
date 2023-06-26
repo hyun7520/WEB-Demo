@@ -1,6 +1,4 @@
 
-NODE/Module, NPM/Module/package-lock.json
-NODE/Module, NPM/Module/package.json
 NODE/Module, NPM/Module/node_modules/.bin/sshpk-conv
 NODE/Module, NPM/Module/node_modules/verror/README.md
 NODE/Module, NPM/Module/node_modules/verror/package.json
@@ -1348,8 +1346,6 @@ NODE/Module, NPM/Lan Detector/node_modules/trim/index.js
 NODE/Module, NPM/Lan Detector/node_modules/trim/Makefile
 NODE/Module, NPM/Lan Detector/node_modules/trim/package.json
 NODE/Module, NPM/Lan Detector/node_modules/trim/Readme.md
-NODE/Express/FirstApp/package-lock.json
-NODE/Express/FirstApp/package.json
 NODE/Templating/node_modules/.bin/ejs
 NODE/Templating/node_modules/.bin/ejs.cmd
 NODE/Templating/node_modules/.bin/ejs.ps1
@@ -2045,5 +2041,3 @@ NODE/Templating/node_modules/vary/index.js
 NODE/Templating/node_modules/vary/LICENSE
 NODE/Templating/node_modules/vary/package.json
 NODE/Templating/node_modules/vary/README.md
-NODE/Templating/package-lock.json
-NODE/Templating/package.json
