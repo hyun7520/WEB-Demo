@@ -20,6 +20,8 @@ app.use((req, res) => { // request, response
 // /Dogs => "woof"
 // / => Home
 
+// Nodemon to auto rerun server when code changes
+// watch for js, mjs, json
 app.get('/', (req, res) => {
     res.send('root')
 })
