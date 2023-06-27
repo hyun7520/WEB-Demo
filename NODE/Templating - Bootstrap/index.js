@@ -7,13 +7,7 @@ const path = require('path');
 // path module come built in, file and dirctory path
 const redditData = require('./data.json');
 
-// static assets, using middleware
-// set directory
-// if excuted in other directory -> error
-// because it will look for 'public' directory at the excuted directry 
-// fix by setting absolute path
-app.use(express.static(path.join(__dirname, '/public')))
-// __dirname set absolute path to the current file -> index.js
+app.use(express.static(path.join(__dirname, 'public')))
 
 app.set('view engine', 'ejs');
 // npm i ejs
