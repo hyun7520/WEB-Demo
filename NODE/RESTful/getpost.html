@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get and Post</title>
+</head>
+
+<body>
+    <h1>Get and Post</h1>
+    <h2>Get</h2>
+    <form action="/tacos" method="get">
+        <input type="text" name="meat" id="">
+        <input type="number" name="qty" id="">
+        <button>Submit</button>
+    </form>
+    <h2>Post</h2>
+    <form action="/tacos" method="post">
+        <input type="text" name="meat" id="">
+        <input type="number" name="qty" id="">
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
+
+
+<!-- get: not to create or update, delete -> search, filter, query -->
+<!-- post: posting data, sent not in a query string but in the req body -->
+<!-- req body -> can send more data than get request ex) json -->
+<!-- body can be anything, html, json, plain txt -->
+
+<!-- get: retrieving info, get page etc. Doesn't affect back-end -->
+<!-- post: update ,delete, create, send data. ex) sign in, upload photo -->

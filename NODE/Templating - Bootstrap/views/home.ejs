@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+<%- include('partials/head') %>
 
 <!-- ejs have tags to show it is not html -->
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
 <body>
+    <%- include('partials/navbar') %>
     <!-- tag show up as a string literal -->
     <h1>
         Home Page <%= 4+1+5 %>
-            <%= 'hello world' .toUpperCase() %>
+        <%= 'hello world' .toUpperCase() %>
     </h1>
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit.

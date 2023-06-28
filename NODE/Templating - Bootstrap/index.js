@@ -50,7 +50,7 @@ app.get('/rand', (req, res) => {
     const num = Math.floor(Math.random() * 10) + 1;
     // send an object to the template
     // good code much of logic ot of html
-    res.render('random', { num: num })
+    res.render('random', { num })
 })
 
 app.listen(3000, () => {
