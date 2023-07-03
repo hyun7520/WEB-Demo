@@ -17,7 +17,7 @@ app.use(methodOverride('_method'));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-const comments = [
+let comments = [
     {
         id: uuid(),
         username: 'Todd',
@@ -84,7 +84,6 @@ app.get('/comments/:id/edit', (req, res) => {
     res.render('comments/edit', { comment })
 })
 
-
 // patch to update parts, put to replace all
 // this way of updating is not recommended
 app.patch('/comments/:id', (req, res) => {
@@ -93,6 +92,13 @@ app.patch('/comments/:id', (req, res) => {
     const foundComment = comments.find(c => c.id === id);
     foundComment.comment = newCommentText;
     res.redirect('/comments');
+})
+
+// delete
+app.delete('/comments/:id', (req, res) => {
+    const { id } = req.params;
+    comments = comments.filter(c => c.id !== id);
+    res.redirect('/comments')
 })
 
 app.get('/tacos', (req, res) => {

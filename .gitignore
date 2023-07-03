@@ -3494,6 +3494,7 @@ NODE/RESTful/node_modules/.bin/uuid.cmd
 NODE/RESTful/node_modules/.bin/uuid.ps1
 NODE/RESTful/node_modules/uuid/CHANGELOG.md
 NODE/RESTful/node_modules/uuid/CONTRIBUTING.md
+NODE/RESTful/node_modules/uuid/dist/bin/uuid
 NODE/RESTful/node_modules/uuid/dist/commonjs-browser/index.js
 NODE/RESTful/node_modules/uuid/dist/commonjs-browser/md5.js
 NODE/RESTful/node_modules/uuid/dist/commonjs-browser/native.js
