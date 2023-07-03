@@ -1,0 +1,26 @@
+database can handle larger amounts more efficiently, compactly
+provide tools for easy insertion, query, update
+offer security and control
+
+
+sql: mysql, oracle, sqlite
+no-sql database: mongodb, couch db
+
+---------------------------------------------------------------------------------------
+sql - relational database, use structured query language, share basic syntax
+-> everything is done in tables: define schema, define preset tables
+-> ex) book db
+        id, author, title
+
+define the structure like above, every entry must have does fields. 
+cannot alter the structure for one entry
+ex) to create table for each books comment, one must define a new table
+
+after db is made, sql dbs have realtion with one another
+ex) comments db had a book_id to reference the book
+relating one cooment to one book or multiple comments on one book and the other way around
+
+----> pre-define dbs and relate them to one another by referencing
+
+---------------------------------------------------------------------------------------
+no-sql -> not like sql, they use whole bunch of things, diverse
