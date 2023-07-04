@@ -24,3 +24,23 @@ relating one cooment to one book or multiple comments on one book and the other 
 
 ---------------------------------------------------------------------------------------
 no-sql -> not like sql, they use whole bunch of things, diverse
+
+
+why use mongodb -> popular pairing with node and express
+!!! mongosh in the terminal !!!
+
+use name -> create db or switch to existing db
+ctrl + c to exit
+show dbs -> show dbs, if nothing is in the db it won't show up on the console
+
+mongodb expects json and BSON
+jsom problems : text based formats are slow to parse, not space efficient, not support large data type
+BSON(binary json): write as json but mongo stores it as binary
+                   in a file physically looks like it takes more space but in memory use much less
+
+BSON : can store data types that is not supported in JSON -> dates, Raw Bindary
+
+show collections -> shows collections of data: container
+db.collection.insertOne : insert data
+db.collection.find() : show all datas, returns a cursor(reference, pointer)
+in data unique id is automatically created
