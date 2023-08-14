@@ -1,12 +1,13 @@
 const math = require('./math.js');
-// need to make sure the reference
+// import modules by using require
+// can skip .js
 // this case math is in the same directory. so add ./
 
-// console.log(math);
-// console.log(math.square(2));
-// returns {} empty
+const { PI, square } = require('./math');
+console.log(PI);
+console.log(square(2));
 
-// prac require entire directory
+// prac for requiring entire directory
 const colors = require('colors');
 // need to be in the same directory: locally installed
 const rainbow = require('./rainobw');
