@@ -20,3 +20,8 @@
 // -> local/lib/node_modules
 // sudo chown -r $USER /usr/local/lib/node_modules to fix this
 // npm link [package] to access globally installed package
+
+// - npm init
+//     - creates package.json
+//     - requires package name, version number, description, entry point etc.
+//     - Any installed packages will be recorded on package.json
