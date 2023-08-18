@@ -20,3 +20,5 @@ NODE/RESTful/node_modules/
 NODE/Module, NPM/jokester/node_modules/
 NODE/Express/node_modules/
 NODE/Templating_Demo/node_modules/
+NODE/Templating_Demo/public/css/bootstrap.min.css
+NODE/Templating_Demo/public/js/bootstrap.min.js
