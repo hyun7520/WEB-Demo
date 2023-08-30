@@ -24,3 +24,4 @@ NODE/Templating_Demo/public/css/bootstrap.min.css
 NODE/Templating_Demo/public/js/bootstrap.min.js
 NODE/REST/node_modules
 NODE/Mongo/node_modules
+NODE/Express_Mongo/node_modules
