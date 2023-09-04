@@ -25,6 +25,7 @@ NODE/Templating_Demo/public/js/bootstrap.min.js
 NODE/REST/node_modules
 NODE/Mongo/node_modules
 NODE/Express_Mongo/node_modules
+NODE/Middleware/node_modules/
 YelpCamp/node_modules
 YelpCamp/seeds/seedHelpers.js
 YelpCamp/seeds/cities.js
