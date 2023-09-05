@@ -53,6 +53,21 @@ app.use((req, res, next) => {
     next();
 })
 
+// this is a middleware that runs when moving to /dogs
+app.use('/dogs', (req, res, next) => {
+    console.log('Dogs');
+    next();
+})
+
+const verifyPassword = ((req, res, next) => {
+    // just for example, never send password through query string
+    const { password } = req.query;
+    if (password === 'chicken') {
+        next();
+    }
+    res.send('Need Password');
+})
+
 app.get('/', (req, res) => {
     console.log(`Request Date: ${req.requestTime}`)
     res.send('Homepage');
@@ -61,6 +76,16 @@ app.get('/', (req, res) => {
 app.get('/dogs', (req, res) => {
     console.log(`Request Date: ${req.requestTime}`)
     res.send('Woof Woof');
+})
+
+app.get('/secret', verifyPassword, (req, res) => {
+    res.send('Secret');
+})
+
+// if nothing is sent back 
+app.use((req, res) => {
+    // change the status
+    res.status(404).send('Not Found')
 })
 
 app.listen('3000', () => {

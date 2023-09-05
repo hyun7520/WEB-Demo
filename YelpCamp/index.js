@@ -4,6 +4,8 @@ const mongoose = require('mongoose');
 const app = express();
 const Campground = require('./models/campground');
 const methodOverride = require('method-override');
+// one of many tools for parse, run ejs
+const ejsMate = require('ejs-mate');
 
 async function main() {
     await mongoose.connect('mongodb://127.0.0.1:27017/YelpCamp', {
@@ -21,9 +23,12 @@ main()
         console.log(err);
     });
 
+
 app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
 
+// use ejsMate for ejs engine
+app.engine('ejs', ejsMate);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
