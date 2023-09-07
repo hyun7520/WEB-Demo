@@ -29,3 +29,5 @@ NODE/Middleware/node_modules/
 YelpCamp/node_modules
 YelpCamp/seeds/seedHelpers.js
 YelpCamp/seeds/cities.js
+Node/AsyncErrors/node_modules/
+Node/Middleware, Error Handling/node_modules/
