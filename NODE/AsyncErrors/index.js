@@ -29,35 +29,40 @@ app.use(methodOverride('_method'));
 
 const categories = ['fruit', 'vegetables', 'dairy'];
 
-app.get('/products', async (req, res, next) => {
-    try {
-        const { category } = req.query;
-        if (category) {
-            const products = await Product.find({ category });
-            res.render('products/index', { products, category });
-        } else {
-            const products = await Product.find({});
-            res.render('products/index', { products, category: 'All' });
-        }
-    } catch (e) {
-        next(e);
+// create a function to pass in an entire callback
+// replace try, catch error handling
+function wrapAsync(fn) {
+    return function (req, res, next) {
+        fn(req, res, next)
+            .catch(e => next(e))
     }
-})
+}
+
+app.get('/products', wrapAsync(async (req, res, next) => {
+
+    const { category } = req.query;
+    if (category) {
+        const products = await Product.find({ category });
+        res.render('products/index', { products, category });
+    } else {
+        const products = await Product.find({});
+        res.render('products/index', { products, category: 'All' });
+    }
+
+}))
 
 app.get('/products/new', (req, res) => {
     res.render('products/new', { categories });
 })
 
 // when handling errors for async function remember to add 'next' int the arguments
-app.post('/products', async (req, res, next) => {
-    try {
-        const newProduct = new Product(req.body);
-        await newProduct.save();
-        res.redirect(`/products/${newProduct._id}`);
-    } catch (e) {
-        next(e);
-    }
-})
+app.post('/products', wrapAsync(async (req, res, next) => {
+
+    const newProduct = new Product(req.body);
+    await newProduct.save();
+    res.redirect(`/products/${newProduct._id}`);
+
+}))
 
 app.get('/products/:id/edit', async (req, res) => {
     const { id } = req.params;
@@ -65,35 +70,31 @@ app.get('/products/:id/edit', async (req, res) => {
     res.render('products/edit', { product, categories });
 })
 
-app.put('/products/:id', async (req, res, next) => {
-    try {
-        const { id } = req.params;
-        const product = await Product.findByIdAndUpdate(id, req.body, { runValidators: true, new: true });
-        res.redirect(`/products/${product._id}`)
-    } catch (e) {
-        next(e);
-    }
-})
+app.put('/products/:id', wrapAsync(async (req, res, next) => {
+    const { id } = req.params;
+    const product = await Product.findByIdAndUpdate(id, req.body, { runValidators: true, new: true });
+    res.redirect(`/products/${product._id}`)
+}))
 
-app.get('/products/:id', async (req, res, next) => {
-    try {
-        const { id } = req.params;
-        const foundProduct = await Product.findById(id);
-        if (!foundProduct) {
-            // On async function express can't catch this code
-            // error may come from findById so wrap it in try and catch
-            // also with try , catch phrase error thrown here can also be catched
-            // no need for return function below
-            throw new AppError('No product', 404);
-            // need to pass this AppError to next
-            // return next(new AppError('No product', 404));
-            // without reuturn code below will run
-        }
-        res.render('products/show', { foundProduct });
-    } catch (e) {
-        next(e);
+app.get('/products/:id', wrapAsync(async (req, res, next) => {
+    // try {
+    const { id } = req.params;
+    const foundProduct = await Product.findById(id);
+    if (!foundProduct) {
+        // On async function express can't catch this code
+        // error may come from findById so wrap it in try and catch
+        // also with try , catch phrase error thrown here can also be catched
+        // no need for return function below
+        throw new AppError('No product', 404);
+        // need to pass this AppError to next
+        // return next(new AppError('No product', 404));
+        // without reuturn code below will run
     }
-})
+    res.render('products/show', { foundProduct });
+    // } catch (e) {
+    //     next(e);
+    // }
+}))
 
 app.delete('/products/:id', async (req, res) => {
     const { id } = req.params;
@@ -101,6 +102,16 @@ app.delete('/products/:id', async (req, res) => {
     res.redirect('/products');
 })
 
+const handleValidationErr = err => {
+    console.log(err);
+    return new AppError(`validation failed... ${err.message}`, 400);
+}
+
+app.use((err, req, res, next) => {
+    console.log(err.name);
+    if (err.name === 'ValidationError') err = handleValidationErr(err);
+    next(err);
+})
 
 app.use((err, req, res, next) => {
     const { status = 500, message = 'Error' } = err;
