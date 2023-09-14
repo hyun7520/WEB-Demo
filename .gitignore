@@ -33,3 +33,5 @@ Node/AsyncErrors/node_modules/
 Node/Middleware, Error Handling/node_modules/
 Mongo-relationships/node_modules/
 Express_MongoRelationship/node_modules/
+Express_Routing/node_modules/
+Cookies/node_modules/
