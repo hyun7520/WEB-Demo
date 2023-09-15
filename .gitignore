@@ -35,3 +35,5 @@ Mongo-relationships/node_modules/
 Express_MongoRelationship/node_modules/
 Express_Routing/node_modules/
 Cookies/node_modules/
+Sessions/Flash/node_modules/
+Sessions/node_modules/
