@@ -16,13 +16,19 @@ const CampgroundSchema = new Schema({
     ]
 })
 
-// run after middleware
-// and show what was deleted
+// await Campground.findByIdAndDelete(id);
+// findByIdAndDelete triggers findOneAndDelete middleware
+// this middeware runs after findOneAndDelete runs
+// so when a campground is deleted this middleware runs
 CampgroundSchema.post('findOneAndDelete', async function (doc) {
     if (doc) {
-        // delete reviews that have id that match
-        // ids from deleted campground reviews
-        await Review.remove({
+        // doc contains data of deleted campground
+        // thorugh doc we can get data of reviews from deleted campground
+
+        // used remove() but newest version of mongoose deprecated remove()
+        // change to deleteMany to fix this
+        await Review.deleteMany({
+            // delete reviews matching ids from reviews in doc
             _id: {
                 $in: doc.reviews
             }
