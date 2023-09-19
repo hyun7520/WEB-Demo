@@ -14,10 +14,7 @@ const campgrounds = require('./routes/campground');
 const reviews = require('./routes/reviews');
 
 async function main() {
-    await mongoose.connect('mongodb://127.0.0.1:27017/YelpCamp', {
-        useNewUrlParser: true,
-        useUnifiedTopology: true
-    });
+    await mongoose.connect('mongodb://127.0.0.1:27017/YelpCamp');
 }
 
 main()
