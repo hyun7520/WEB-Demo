@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const User = require('../models/user');
 const catchAsync = require('../utils/catchAsync');
+const passport = require('passport');
 
 router.get('/register', (req, res) => {
     res.render('users/register');
@@ -19,5 +20,18 @@ router.post('/register', catchAsync(async (req, res) => {
         res.redirect('/register');
     }
 }))
+
+router.get('/login', (req, res) => {
+    res.render('users/login');
+})
+
+// authenticate with local strategy
+router.post('/login', passport.authenticate('local',
+    // authenticate options
+    { failureFlash: true, failureRedirect: '/login' }),
+    (req, res) => {
+        req.flash('success', 'Welcome!');
+        res.redirect('/campgrounds');
+    })
 
 module.exports = router;
