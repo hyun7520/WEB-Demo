@@ -10,8 +10,14 @@ const flash = require('connect-flash');
 
 const ExpressError = require('./utils/ExpressError');
 
+// require routes
+const userRoutes = require('./routes/users');
 const campgrounds = require('./routes/campground');
 const reviews = require('./routes/reviews');
+
+const passport = require('passport');
+const LocalStrategy = require('passport-local');
+const User = require('./models/user');
 
 async function main() {
     await mongoose.connect('mongodb://127.0.0.1:27017/YelpCamp');
@@ -31,6 +37,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
 app.use(express.static(path.join(__dirname, 'public')));
 
+
 // enable session
 const sessionconfig = {
     secret: 'thisshouldbeabettersecret',
@@ -47,6 +54,14 @@ const sessionconfig = {
 app.use(session(sessionconfig));
 app.use(flash());
 
+app.use(passport.initialize());
+// needs to be placed after app.use(session());
+app.use(passport.session());
+passport.use(new LocalStrategy(User.authenticate()));
+
+passport.serializeUser(User.serializeUser());
+passport.deserializeUser(User.deserializeUser());
+
 // use ejsMate for ejs engine
 app.engine('ejs', ejsMate);
 app.set('views', path.join(__dirname, 'views'));
@@ -59,6 +74,16 @@ app.use((req, res, next) => {
     next();
 })
 
+// create user
+app.get('/fakeUser', async (req, res) => {
+    const user = new User({ email: 'dave@gmail.com', username: 'daveee' });
+    // hashes the password with salt ans store it 
+    const newUser = await User.register(user, 'davepwd');
+    res.send(newUser);
+})
+
+
+app.use('/', userRoutes);
 app.use('/campgrounds', campgrounds);
 app.use('/campgrounds/:id/reviews', reviews);
 
