@@ -67,8 +67,11 @@ app.engine('ejs', ejsMate);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-// every request have access to this flash
+// every request have access to this
 app.use((req, res, next) => {
+    // console.log(req.session);
+    // all templates have access to current user
+    res.locals.currentUser = req.user;
     res.locals.success = req.flash('success');
     res.locals.error = req.flash('error');
     next();
