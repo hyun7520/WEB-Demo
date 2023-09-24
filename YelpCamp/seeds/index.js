@@ -53,6 +53,7 @@ const seedDB = async () => {
         const price = Math.floor(Math.random() * 20) + 10;
         // create data with city and state
         const camp = new Campground({
+            author: '650d597943e0964ebb6c0df1',
             location: `${cities[random1000].city}, ${cities[random1000].state}`,
             title: `${sample(descriptors)} ${sample(places)}`,
             image: await seedImg(),

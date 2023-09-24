@@ -16,12 +16,10 @@ router.post('/register', catchAsync(async (req, res, next) => {
         const registeredUser = await User.register(user, password);
         // automatically login user when registered
         req.login(registeredUser, err => {
-            if (err) {
-                return next();
-            }
+            if (err) return next(err);
+            req.flash('success', 'Welcome to YelpCamp');
+            res.redirect('/campgrounds');
         })
-        req.flash('success', 'Welcome to YelpCamp');
-        res.redirect('/campgrounds');
     } catch (e) {
         req.flash('error', e.message);
         res.redirect('/register');
