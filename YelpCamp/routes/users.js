@@ -6,18 +6,20 @@ const passport = require('passport');
 const { storeReturnTo } = require('../middleware');
 const users = require('../controllers/users');
 
-router.get('/register', users.renderRegister);
+router.route('/register')
+    .get(users.renderRegister)
+    .post(catchAsync(users.registerUser));
 
-router.post('/register', catchAsync(users.registerUser));
 
-router.get('/login', users.renderLogin);
-
-// authenticate with local strategy
-router.post('/login', storeReturnTo, passport.authenticate('local',
-    // authenticate options
-    { failureFlash: true, failureRedirect: '/login' }),
-    users.login
-);
+router.route('/login')
+    .get(users.renderLogin)
+    // authenticate with local strategy
+    .post(storeReturnTo, passport.authenticate(
+        'local',
+        // authenticate options
+        { failureFlash: true, failureRedirect: '/login' }),
+        users.login
+    );
 
 router.get('/logout', users.logout);
 
