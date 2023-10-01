@@ -6,6 +6,10 @@ const catchAsync = require('../utils/catchAsync');
 
 const { isLoggedIn, validateCampground, isAuthor } = require('../middleware');
 
+// require multer
+const multer = require('multer');
+const upload = multer({ dest: 'uploads/' });
+
 // organized using one route
 // take out path argument as they have same routes
 router.route('/')
@@ -13,7 +17,13 @@ router.route('/')
     // submit form to create new campground and redirect
     // validateCampground validates input data on the server side
     // create it into a middleware to use it in update as well
-    .post(isLoggedIn, validateCampground, catchAsync(campgrounds.createCampground));
+    // .post(isLoggedIn, validateCampground, catchAsync(campgrounds.createCampground));
+
+    // fieldname for image input is set to image
+    .post(upload.single('image'), (req, res) => {
+        console.log(req.body, req.file);
+        res.send('it worked');
+    })
 
 // moving to create page using get method
 router.get('/new', isLoggedIn, campgrounds.renderNewForm);
