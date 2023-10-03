@@ -30,6 +30,7 @@ YelpCamp/node_modules
 YelpCamp/seeds/seedHelpers.js
 YelpCamp/seeds/cities.js
 YelpCamp/public/stylesheets/stars.css
+YelpCamp/.env
 Node/AsyncErrors/node_modules/
 Node/Middleware, Error Handling/node_modules/
 Mongo-relationships/node_modules/

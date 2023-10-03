@@ -15,9 +15,13 @@ module.exports.createCampground = async (req, res, next) => {
     // this will be catched at the error handling middle ware at the end
     // if (!req.body.campground) throw new expressError('Invalid Campground Data', 400);
     const campground = new Campground(req.body.campground);
+
+    campground.images = req.files.map(f => ({ url: f.path, filename: f.filename }));
+
     // automatically add logged in user when created
     campground.author = req.user._id;
     await campground.save();
+    console.log(campground);
     req.flash('success', 'Successfully made a new campground');
     res.redirect(`/campgrounds/${campground._id}`);
 }

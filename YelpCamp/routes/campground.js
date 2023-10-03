@@ -8,7 +8,10 @@ const { isLoggedIn, validateCampground, isAuthor } = require('../middleware');
 
 // require multer
 const multer = require('multer');
-const upload = multer({ dest: 'uploads/' });
+// node automatically looks for index file
+const { storage } = require('../cloudinary');
+// store images on storage, which is defined in cloudinary directory
+const upload = multer({ storage });
 
 // organized using one route
 // take out path argument as they have same routes
@@ -17,13 +20,20 @@ router.route('/')
     // submit form to create new campground and redirect
     // validateCampground validates input data on the server side
     // create it into a middleware to use it in update as well
-    // .post(isLoggedIn, validateCampground, catchAsync(campgrounds.createCampground));
 
-    // fieldname for image input is set to image
-    .post(upload.single('image'), (req, res) => {
-        console.log(req.body, req.file);
-        res.send('it worked');
-    })
+    // validate campground should run after upload.array('image') by multer
+    // as it depends on req.body and images uplaoded to req.body is done by multer
+    .post(isLoggedIn,
+        upload.array('image'),
+        validateCampground,
+        catchAsync(campgrounds.createCampground)
+    );
+
+// fieldname for image input is set to image
+// .post(upload.single('image'), (req, res) => {
+//     console.log(req.body, req.file);
+//     res.send('it worked');
+// })
 
 // moving to create page using get method
 router.get('/new', isLoggedIn, campgrounds.renderNewForm);
