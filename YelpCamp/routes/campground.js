@@ -24,12 +24,13 @@ router.route('/')
     // validate campground should run after upload.array('image') by multer
     // as it depends on req.body and images uplaoded to req.body is done by multer
     .post(isLoggedIn,
+        // fieldname for image input at ejs file is set to image
         upload.array('image'),
         validateCampground,
         catchAsync(campgrounds.createCampground)
     );
 
-// fieldname for image input is set to image
+
 // .post(upload.single('image'), (req, res) => {
 //     console.log(req.body, req.file);
 //     res.send('it worked');
@@ -44,6 +45,7 @@ router.route('/:id')
     // edit campgrounds
     .put(isLoggedIn,
         isAuthor,
+        upload.array('image'),
         validateCampground,
         catchAsync(campgrounds.updateCampground))
     // delete campgrounds

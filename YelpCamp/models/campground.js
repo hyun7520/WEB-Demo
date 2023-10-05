@@ -2,14 +2,21 @@ const mongoose = require('mongoose');
 const Review = require('./review');
 const Schema = mongoose.Schema;
 
+// nest image schema
+const ImageSchema = new Schema({
+    url: String,
+    filename: String
+})
+
+// use virtual when derived object does not have to be stored
+ImageSchema.virtual('thumbnail').get(function () {
+    // change url partially to get thumbnail given by Cloudinary
+    return this.url.replace('/upload', '/upload/w_200');
+})
+
 const CampgroundSchema = new Schema({
     title: String,
-    images: [
-        {
-            url: String,
-            filename: String
-        }
-    ],
+    images: [ImageSchema],
     price: Number,
     description: String,
     location: String,
