@@ -24,22 +24,21 @@ module.exports.createCampground = async (req, res, next) => {
         limit: 1
     }).send();
 
-    res.send(geoData.body.features[0].geometry.coordinates);
-
     // saving different data type can cause problem
     // ex) saving String type to a Number
     // this will be catched at the error handling middle ware at the end
     // if (!req.body.campground) throw new expressError('Invalid Campground Data', 400);
 
-    // const campground = new Campground(req.body.campground);
+    const campground = new Campground(req.body.campground);
 
-    // campground.images = req.files.map(f => ({ url: f.path, filename: f.filename }));
-
-    // // automatically add logged in user when created
-    // campground.author = req.user._id;
-    // await campground.save();
-    // req.flash('success', 'Successfully made a new campground');
-    // res.redirect(`/campgrounds/${campground._id}`);
+    campground.geometry = geoData.body.features[0].geometry;
+    campground.images = req.files.map(f => ({ url: f.path, filename: f.filename }));
+    // automatically add logged in user when created
+    campground.author = req.user._id;
+    await campground.save();
+    console.log(campground);
+    req.flash('success', 'Successfully made a new campground');
+    res.redirect(`/campgrounds/${campground._id}`);
 }
 
 module.exports.showCampground = async (req, res) => {
