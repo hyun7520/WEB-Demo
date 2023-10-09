@@ -34,6 +34,11 @@
 
 <script>
   const mapToken = '<%- process.env.MAPBOX_TOKEN %>';
+
+  // modify format to match default data for cluster map from Mapbox
+  const campgrounds = {
+    features: <%- JSON.stringify(campgrounds) %>
+  }
 </script>
 
 <script src="/javascripts/clusterMap.js"></script>
