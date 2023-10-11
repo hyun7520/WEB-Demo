@@ -89,14 +89,14 @@ app.get('/fakeUser', async (req, res) => {
     res.send(newUser);
 })
 
-
 app.use('/', userRoutes);
 app.use('/campgrounds', campgrounds);
 app.use('/campgrounds/:id/reviews', reviews);
 
+
 app.get('/', (req, res) => {
-    res.render('home')
-})
+    res.render('campgrounds/home')
+});
 
 // order is important!
 // for every requrest, for every path
