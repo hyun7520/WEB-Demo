@@ -12,9 +12,9 @@
     <div class="col-md-4">
       <% if(campground.images[0]) {%>
       <!-- show only the first image -->
-      <img class="img-fluid" alt="" src="<%= campground.images[0].url %>">
+      <img crossorigin="anonymous" class="img-fluid" alt="" src="<%= campground.images[0].url %>">
       <% } else { %>
-      <img class="img-fluid" alt="" src="">
+      <img crossorigin="anonymous" class="img-fluid" alt="" src="https://res.cloudinary.com/dsr7sxgt4/image/upload/v1696310923/YelpCamp/jggi0w4el1ddq9rwbaed.jpg">
       <% } %>
     </div>
 

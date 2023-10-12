@@ -2,6 +2,8 @@ if (process.env.NODE_ENV !== "production") {
     require('dotenv').config();
 }
 
+// require('dotenv').config();
+
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -25,6 +27,8 @@ const User = require('./models/user');
 
 const mongoSanitize = require('express-mongo-sanitize');
 
+const helmet = require('helmet');
+
 async function main() {
     await mongoose.connect('mongodb://127.0.0.1:27017/YelpCamp');
 }
@@ -46,12 +50,16 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // enable session
 const sessionconfig = {
+    // default id of session
+    name: 'session',
     secret: 'thisshouldbeabettersecret',
     resave: false,
     saveUninitialized: true,
     cookie: {
         // basic security, set to true for default
         httpOnly: true,
+        // secure -> set cookie to work only over https
+        // secure: true,
         // today date(in miliseconds) + 7day
         expires: Date.now() + 1000 * 60 * 60 * 24 * 7,
         maxAge: 1000 * 60 * 60 * 24 * 7
@@ -72,6 +80,59 @@ app.use(mongoSanitize({
     // replace symbol
     replaceWith: '_'
 }));
+
+// automatically enbale middlewares that comes with helmet
+app.use(helmet());
+
+// configured content-security-policy for YelpCamp
+const scriptSrcUrls = [
+    "https://stackpath.bootstrapcdn.com/",
+    "https://api.tiles.mapbox.com/",
+    "https://api.mapbox.com/",
+    "https://kit.fontawesome.com/",
+    "https://cdnjs.cloudflare.com/",
+    "https://cdn.jsdelivr.net",
+];
+const styleSrcUrls = [
+    "https://kit-free.fontawesome.com/",
+    "https://api.mapbox.com/",
+    "https://api.tiles.mapbox.com/",
+    "https://fonts.googleapis.com/",
+    "https://use.fontawesome.com/",
+    // bootstrap suggest single link tag for css and js
+    // so add the link here as well, where bootstrap css and js is coming from.
+    "https://cdn.jsdelivr.net"
+];
+const connectSrcUrls = [
+    "https://api.mapbox.com/",
+    "https://a.tiles.mapbox.com/",
+    "https://b.tiles.mapbox.com/",
+    "https://events.mapbox.com/",
+];
+const fontSrcUrls = [];
+app.use(
+    helmet.contentSecurityPolicy({
+        directives: {
+            defaultSrc: [],
+            connectSrc: ["'self'", ...connectSrcUrls],
+            scriptSrc: ["'unsafe-inline'", "'self'", ...scriptSrcUrls],
+            styleSrc: ["'self'", "'unsafe-inline'", ...styleSrcUrls],
+            workerSrc: ["'self'", "blob:"],
+            objectSrc: [],
+            imgSrc: [
+                "'self'",
+                "blob:",
+                "data:",
+                // start server, load local host, right click to inspect page
+                // search for img, copy and paste my account
+                `https://res.cloudinary.com/${process.env.CLOUDINARY_CLOUD_NAME}/`, //SHOULD MATCH YOUR CLOUDINARY ACCOUNT! 
+                "https://images.unsplash.com/",
+            ],
+            fontSrc: ["'self'", ...fontSrcUrls],
+        },
+    })
+);
+
 
 // use ejsMate for ejs engine
 app.engine('ejs', ejsMate);

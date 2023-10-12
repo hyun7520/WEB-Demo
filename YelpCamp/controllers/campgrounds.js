@@ -36,7 +36,7 @@ module.exports.createCampground = async (req, res, next) => {
     // automatically add logged in user when created
     campground.author = req.user._id;
     await campground.save();
-    console.log(campground);
+    // console.log(campground);
     req.flash('success', 'Successfully made a new campground');
     res.redirect(`/campgrounds/${campground._id}`);
 }
@@ -74,7 +74,7 @@ module.exports.renderEditForm = async (req, res) => {
 
 module.exports.updateCampground = async (req, res) => {
     const { id } = req.params;
-    console.log(req.body);
+    // console.log(req.body);
     // check if author and current user is same
     const campground = await Campground.findByIdAndUpdate(id, { ...req.body.campground });
 
