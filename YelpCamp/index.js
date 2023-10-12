@@ -23,6 +23,8 @@ const passport = require('passport');
 const LocalStrategy = require('passport-local');
 const User = require('./models/user');
 
+const mongoSanitize = require('express-mongo-sanitize');
+
 async function main() {
     await mongoose.connect('mongodb://127.0.0.1:27017/YelpCamp');
 }
@@ -66,6 +68,11 @@ passport.use(new LocalStrategy(User.authenticate()));
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
+app.use(mongoSanitize({
+    // replace symbol
+    replaceWith: '_'
+}));
+
 // use ejsMate for ejs engine
 app.engine('ejs', ejsMate);
 app.set('views', path.join(__dirname, 'views'));
@@ -75,6 +82,9 @@ app.set('view engine', 'ejs');
 app.use((req, res, next) => {
     // console.log(req.session);
     // all templates have access to current user
+
+    console.log(req.query)
+
     res.locals.currentUser = req.user;
     res.locals.success = req.flash('success');
     res.locals.error = req.flash('error');
