@@ -12,6 +12,8 @@ const methodOverride = require('method-override');
 // one of many tools for parse, run ejs
 const ejsMate = require('ejs-mate');
 const session = require('express-session');
+const MongoStore = require('connect-mongo');
+
 const flash = require('connect-flash');
 
 const ExpressError = require('./utils/ExpressError');
@@ -29,8 +31,13 @@ const mongoSanitize = require('express-mongo-sanitize');
 
 const helmet = require('helmet');
 
+// const dbUrl = process.env.DB_URL;
+
+const dbUrl = 'mongodb://127.0.0.1:27017/YelpCamp'
+
+// mongodb://127.0.0.1:27017/YelpCamp - local url
 async function main() {
-    await mongoose.connect('mongodb://127.0.0.1:27017/YelpCamp');
+    await mongoose.connect(dbUrl);
 }
 
 main()
@@ -47,9 +54,24 @@ app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
 app.use(express.static(path.join(__dirname, 'public')));
 
+const store = MongoStore.create({
+    mongoUrl: dbUrl,
+    // lazy update - prevent unneccessary unchanged cookie saves
+    // 24hours 60min 60sec
+    touchAfter: 24 * 60 * 60,
+    crypto: {
+        secret: 'thisshouldbeabettersecret!'
+    }
+});
+
+store.on("error", function (e) {
+    console.log("Session Store Error", e);
+})
 
 // enable session
 const sessionconfig = {
+    // store: store
+    store,
     // default id of session
     name: 'session',
     secret: 'thisshouldbeabettersecret',
@@ -65,6 +87,7 @@ const sessionconfig = {
         maxAge: 1000 * 60 * 60 * 24 * 7
     }
 }
+
 app.use(session(sessionconfig));
 app.use(flash());
 
@@ -143,8 +166,6 @@ app.set('view engine', 'ejs');
 app.use((req, res, next) => {
     // console.log(req.session);
     // all templates have access to current user
-
-    console.log(req.query)
 
     res.locals.currentUser = req.user;
     res.locals.success = req.flash('success');
