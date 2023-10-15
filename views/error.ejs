@@ -4,7 +4,7 @@
     <div class="alert alert-danger" role="alert">
       <h4 class="alert-heading">Error!</h4>
       <!-- dp not display error stack if not in development -->
-      <% if(process.env.NODE_ENV !== production) { %>
+      <% if(process.env.NODE_ENV !== "production") { %>
       <p><%= err.stack %></p>
       <% } %>
       <p><%= err.stack %></p>
